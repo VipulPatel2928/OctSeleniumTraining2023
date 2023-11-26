@@ -16,6 +16,7 @@ public class LaunchBrowserClass {
 		}
 	}
 	
+	//This fucntion is used to launch the Chrome Browser
 	public static WebDriver getChromeDriver() {
 	      WebDriverManager.chromedriver().setup();
 	      driver = new ChromeDriver();
