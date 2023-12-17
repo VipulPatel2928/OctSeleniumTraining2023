@@ -9,8 +9,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FindElementAndElements {
 
-
-
 	public static WebDriver driver;
 	
 	public static void waitForSeconds(int timeOut) {
