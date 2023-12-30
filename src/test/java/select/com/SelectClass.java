@@ -36,8 +36,9 @@ public class SelectClass {
 		waitForSeconds(3);
 		WebElement createNewAccountElement = driver.findElement(By.xpath("//a[text()='Create new account']"));
 		
-		Select selct1 = new Select(createNewAccountElement);
-		selct1.selectByIndex(0);
+		//Remove the comment to see the "UnexpectedTagNameException"
+		//Select selct1 = new Select(createNewAccountElement);
+		//selct1.selectByIndex(0);
 		
 		createNewAccountElement.click();
 		waitForSeconds(3);
