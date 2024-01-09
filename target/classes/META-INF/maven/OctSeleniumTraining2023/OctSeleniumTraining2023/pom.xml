@@ -3,6 +3,9 @@
 	<groupId>OctSeleniumTraining2023</groupId>
 	<artifactId>OctSeleniumTraining2023</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<poi.version>3.13</poi.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -13,6 +16,21 @@
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.15.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${poi.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${poi.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>2.6.0</version>
 		</dependency>
 	</dependencies>
 </project>
